@@ -10,15 +10,15 @@ export default defineConfig({
   plugins: [
     react()
   ],
-  base: "/Niqaby/",
+  root: path.resolve(__dirname, "client"),
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "client", "src"),
-      "@shared": path.resolve(__dirname, "shared"),
+      "@": path.resolve(__dirname, "client/src"),
     },
   },
-  root: path.resolve(__dirname, "client"),
   build: {
-    outDir: "dist",
-  }
+    outDir: path.resolve(__dirname, "dist/public"),
+  },
+  base: "/",
+
 });
