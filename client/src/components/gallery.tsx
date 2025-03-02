@@ -3,11 +3,11 @@ import * as React from "react"
 import { Card, CardContent } from "@/components/ui/card"
 
 
-import video1 from "../../../dist/public/assets/vid1-BfcQ5-gp.mp4"
-import video2 from "../../../dist/public/assets/vid2-_v4iLnFt.mp4"
-import video3 from "../../../dist/public/assets/vid3-C7rcaIdZ.mp4"
-import video4 from "../../../dist/public/assets/vid4-Cmxm4hSH.mp4"
-import video5 from "../../../dist/public/assets/vid5-BUueyLW2.mp4"
+import video1 from "../public/img/vid1.mp4"
+import video2 from "../public/img/vid2.mp4"
+import video3 from "../public/img/vid3.mp4"
+import video4 from "../public/img/vid4.mp4"
+import video5 from "../public/img/vid5.mp4"
 
 export default function Gallery() {
   return (
