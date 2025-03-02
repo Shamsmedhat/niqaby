@@ -1,3 +1,14 @@
+import product1 from "../public/img/product1.jpg";
+import product2 from "../public/img/product2.jpg";
+import product3 from "../public/img/product3.jpg";
+import product7 from "../public/img/product7.jpg";
+import product4 from "../public/img/product4.jpg";
+import product5 from "../public/img/product5.jpg";
+import product6 from "../public/img/product6.jpg";
+import product10 from "../public/img/product10.jpg";
+import product8 from "../public/img/product8.jpg";
+import product9 from "../public/img/product9.jpg";
+
 export interface Product {
   id: number;
   name: string;
@@ -9,58 +20,72 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Minimalist Watch",
-    price: 199.99,
-    description: "Elegant timepiece with modern design",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    name: "نقاب اسود",
+    price: 169.99,
+    description: "نقاب اسود بدون تندا ",
+    image: product1
   },
   {
     id: 2,
-    name: "Premium Skincare Set",
-    price: 89.99,
-    description: "Natural ingredients for radiant skin",
-    image: "https://images.unsplash.com/photo-1556228578-567ba127e37f"
+    name: "نقاب الوان",
+    price: 179.99,
+    description: "نقاب الوان بدون تندا",
+    image: product2
   },
   {
     id: 3,
-    name: "Wireless Earbuds",
-    price: 149.99,
-    description: "Crystal clear audio experience",
-    image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+    name: "نقاب اسود ",
+    price: 199.99,
+    description: "نقاب اسود بتندا ",
+    image: product3
   },
   {
     id: 4,
-    name: "Smart Home Hub",
-    price: 299.99,
-    description: "Control your home with voice commands",
-    image: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a"
+    name: "نقاب الوان ",
+    price: 219.99,
+    description: "نقاب الوان بتندا ",
+    image: product7
   },
   {
     id: 5,
-    name: "Designer Sunglasses",
-    price: 179.99,
-    description: "UV protection with style",
-    image: "https://images.unsplash.com/photo-1525904097878-94fb15835963"
+    name: "سلسله لتثبيت النقاب",
+    price: 49.99,
+    description: "سلسله لتثبيت النقاب",
+    image: product4
   },
   {
     id: 6,
-    name: "Luxury Handbag",
-    price: 399.99,
-    description: "Handcrafted Italian leather",
-    image: "https://images.unsplash.com/photo-1509695507497-903c140c43b0"
+    name: "طرحه سوداء",
+    price: 249.99,
+    description: "طرحه سوداء مستطيله",
+    image: product5
   },
   {
     id: 7,
-    name: "Premium Coffee Maker",
-    price: 249.99,
-    description: "Barista-quality coffee at home",
-    image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908"
+    name: "طرحه",
+    price: 269.99,
+    description: "طرحه الوان مستطيله",
+    image: product6
   },
   {
     id: 8,
-    name: "Wireless Headphones",
-    price: 279.99,
-    description: "Premium sound quality",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    name: "الطقم الاسود",
+    price: 419.99,
+    description: "الطقم الاسود نقاب + طرحه",
+    image: product8
+  },
+  {
+    id: 9,
+    name: "الطقم الالوان",
+    price: 439.99,
+    description: "الطقم الالوان نقاب + طرحه",
+    image: product9
+  },
+  {
+    id: 10,
+    name: "نقاب",
+    price: 199.99,
+    description: "نقاب ملكي سعودي",
+    image: product10
   }
 ];

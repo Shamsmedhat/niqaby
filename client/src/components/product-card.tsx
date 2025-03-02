@@ -20,11 +20,15 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="p-6">
           <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
           <p className="text-sm text-muted-foreground mb-4">{product.description}</p>
-          <p className="text-xl font-bold">${product.price.toFixed(2)}</p>
+          <p className="text-xl font-bold">{product.price.toFixed(2)} جنية</p>
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button className="w-full">Add to Cart</Button>
+        <Button className="w-full">
+          <a href="#contact">
+          تواصل معنا
+          </a>
+          </Button>
       </CardFooter>
     </Card>
   );
