@@ -22,50 +22,8 @@ export const products: Product[] = [
     id: 1,
     name: "نقاب اسود",
     price: 169.99,
-    description: "نقاب اسود بدون تندا ",
+    description: "نقاب اسود بدون تندا سعودي طبي",
     image: product1
-  },
-  {
-    id: 2,
-    name: "نقاب الوان",
-    price: 179.99,
-    description: "نقاب الوان بدون تندا",
-    image: product2
-  },
-  {
-    id: 3,
-    name: "نقاب اسود ",
-    price: 199.99,
-    description: "نقاب اسود بتندا ",
-    image: product3
-  },
-  {
-    id: 4,
-    name: "نقاب الوان ",
-    price: 219.99,
-    description: "نقاب الوان بتندا ",
-    image: product7
-  },
-  {
-    id: 5,
-    name: "سلسله لتثبيت النقاب",
-    price: 49.99,
-    description: "سلسله لتثبيت النقاب",
-    image: product4
-  },
-  {
-    id: 6,
-    name: "طرحه سوداء",
-    price: 249.99,
-    description: "طرحه سوداء مستطيله",
-    image: product5
-  },
-  {
-    id: 7,
-    name: "طرحه",
-    price: 269.99,
-    description: "طرحه الوان مستطيله",
-    image: product6
   },
   {
     id: 8,
@@ -85,7 +43,49 @@ export const products: Product[] = [
     id: 10,
     name: "نقاب",
     price: 199.99,
-    description: "نقاب ملكي سعودي",
+    description: "نقاب ملكي شيفون سعودي طبي",
     image: product10
+  },
+  {
+    id: 2,
+    name: "نقاب الوان",
+    price: 179.99,
+    description: "نقاب الوان بدون تندا سعودي طبي",
+    image: product2
+  },
+  {
+    id: 4,
+    name: "نقاب الوان ",
+    price: 219.99,
+    description: "نقاب الوان بتندا سعودي طبي",
+    image: product7
+  },
+  {
+    id: 5,
+    name: "سلسله لتثبيت النقاب",
+    price: 49.99,
+    description: "سلسله لتثبيت النقاب",
+    image: product4
+  },
+  {
+    id: 3,
+    name: "نقاب اسود ",
+    price: 199.99,
+    description: "نقاب اسود بتندا سعودي طبي",
+    image: product3
+  },
+  {
+    id: 6,
+    name: "طرحه سوداء",
+    price: 249.99,
+    description: "طرحه سوداء مستطيله",
+    image: product5
+  },
+  {
+    id: 7,
+    name: "طرحه",
+    price: 269.99,
+    description: "طرحه الوان مستطيله",
+    image: product6
   }
 ];
