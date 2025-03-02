@@ -8,7 +8,7 @@ export function NavHeader() {
   const [open, setOpen] = useState(false);
 
   const menuItems = [
-    { label: "الصفحة الرئيسية", href: "/Niqaby/" },
+    { label: "الصفحة الرئيسية", href: "/niqaby/" },
     { label: "المنتجات", href: "#products" },
     { label: "من نحن", href: "#about" },
     { label: "تواصل معنا", href: "#contact" },
