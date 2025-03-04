@@ -1,3 +1,5 @@
+import { MoveLeft } from "lucide-react";
+import { Button } from "./ui/button";
 
 export function HeroSection() {
   return (
@@ -22,7 +24,19 @@ export function HeroSection() {
             استمتع بالفخامة والإبداع مع مجموعتنا المختارة بعناية من المنتجات المتميزة.
             ارتق بأسلوب حياتك بجودة وتصميم استثنائيين.
           </p>
-
+          <Button className="text-2xl p-5">
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdmSXiZU1FQkP5WipWt_eNZGFEPrNtUfAi5wUcQxsOnu890aw/viewform" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            <span className="flex justify-center items-center gap-2">
+            احجز طلباتك من هنا
+            <MoveLeft />
+            </span>
+          </a>
+          </Button>
         </div>
       </div>
     </section>
