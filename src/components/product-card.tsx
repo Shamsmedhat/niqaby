@@ -14,7 +14,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            className="w-full h-full object-scale-down transition-transform duration-300 group-hover:scale-110"
           />
         </div>
         <div className="p-6">
@@ -25,10 +25,8 @@ export function ProductCard({ product }: ProductCardProps) {
       </CardContent>
       <CardFooter className="p-6 pt-0">
         <Button className="w-full">
-          <a href="#contact">
-          تواصل معنا
-          </a>
-          </Button>
+          <a href="#contact">تواصل معنا</a>
+        </Button>
       </CardFooter>
     </Card>
   );
