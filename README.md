@@ -1,2 +1,3 @@
-npm install gh-pages --save-dev /n
+npm install gh-pages --save-dev
+
 npm run deploy
